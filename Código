@@ -1,0 +1,24 @@
+var rango = 0...100
+var multiplo5 = 0
+var par = 0
+
+for it in rango {
+    multiplo5 = it % 5
+    par = it % 2
+    
+    if multiplo5 == 0 && it != 0{
+        print("\(it) Bingo !!! ")
+    }
+    if par == 0 && it != 0 {
+        print("\(it) Par !!!")
+    }
+    if par != 0{
+        print("\(it) Impar !!!")
+    }
+
+    if it >= 30 && it <= 40{
+        print("\(it) Viva Swift !!!")
+    }
+
+    
+}
